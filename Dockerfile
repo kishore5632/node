@@ -1,6 +1,6 @@
 FROM node:16
 
-WORKDIR /usr/bin/app
+WORKDIR /usr/src/app
 
 COPY ./config    ./
 
