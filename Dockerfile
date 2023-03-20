@@ -2,9 +2,15 @@ FROM node:16
 
 WORKDIR /usr/bin/app
 
-COPY package*.json  ./
+COPY ./config    ./
 
-copy node_modules ./
+COPY ./models    ./
+
+COPY ./node_modules ./
+
+COPY  ./routes  ./
+
+COPY ./views   ./
 
 COPY . .
 
