@@ -8,11 +8,11 @@ COPY ./models    ./
 
 COPY  ./routes  ./
 
-COPY ./views   ./
+COPY ./views  ./
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 5000
 
 CMD ["node", "app.js"]
 
