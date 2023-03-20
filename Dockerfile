@@ -6,8 +6,6 @@ COPY ./config    ./
 
 COPY ./models    ./
 
-COPY ./node_modules ./
-
 COPY  ./routes  ./
 
 COPY ./views   ./
