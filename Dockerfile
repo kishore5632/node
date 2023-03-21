@@ -14,9 +14,11 @@ COPY ./views  ./
 
 USER node
 
+COPY --chown=node:node . .
+
 RUN npm install
 
-COPY --chown=node:node . .
+
 
 EXPOSE 5000
 
